@@ -1,0 +1,28 @@
+{
+  "name": "ts-type-inference-test",
+  "version": "1.0.0",
+  "description": "ts-type-inference-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "format": "prettier --write './__tests__/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takefumi-yoshii/ts-type-inference-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takefumi-yoshii/ts-type-inference-test/issues"
+  },
+  "homepage": "https://github.com/takefumi-yoshii/ts-type-inference-test#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  }
+}
