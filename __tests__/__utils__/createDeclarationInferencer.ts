@@ -3,7 +3,7 @@ import { getInferredTypeStringByDeclarationName } from "./traverser";
 import { resolve } from "path";
 // ______________________________________________________
 //
-export function getInspector(
+export function createDeclarationInferencer(
   srcFileName: string,
   tsconfigPath = "tsconfig.json"
 ) {
