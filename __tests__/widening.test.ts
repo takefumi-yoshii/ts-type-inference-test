@@ -12,8 +12,8 @@ describe("widening.ts", () => {
   });
 
   test("Widening Literal Type go unnoticed until used.", () => {
-    expect(infer("test0")).toBe("number");
-    expect(infer("test1")).toBe("1");
-    expect(infer("test2")).toBe("2");
+    expect(infer("_w0")).toBe("number");
+    expect(infer("_n1")).toBe("1");
+    expect(infer("_n2")).toBe("2");
   });
 });
